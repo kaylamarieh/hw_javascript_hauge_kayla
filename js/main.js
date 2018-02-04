@@ -19,3 +19,14 @@ var numba = function (string) {
 numba('7');
 numba('seventy');
 numba('university');
+
+//Write favorite movie in console
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+function output(favMovie) {
+    console.log(favMovie + ' is a fantastic movie.');
+}
+
+inception(output, 'Star Wars');
